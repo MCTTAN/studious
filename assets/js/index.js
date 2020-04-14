@@ -41,6 +41,10 @@ function login(){
 
 }
 
+function sign-up() {
+  window.location.href = "sign-up.html";
+}
+
 function logout(){
   firebase.auth().signOut();
   window.location.href = "index.html";
