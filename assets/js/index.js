@@ -7,12 +7,8 @@ firebase.auth().onAuthStateChanged(function(user) {
 
     var user = firebase.auth().currentUser;
 
-    if(user != null){
-
-      var email_id = user.email;
+    if(user != null) {
       window.location.href = "home.html";
-      // document.getElementById("user_para").innerHTML = "Welcome User : " + email_id;
-
     }
 
   } else {
@@ -24,7 +20,7 @@ firebase.auth().onAuthStateChanged(function(user) {
   }
 });
 
-function login(){
+function login() {
 
   var userEmail = document.getElementById("email_field").value;
   var userPass = document.getElementById("password_field").value;
@@ -35,17 +31,11 @@ function login(){
     var errorMessage = error.message;
 
     window.alert("Error : " + errorMessage);
-
-    // ...
   });
 
 }
 
-function sign-up() {
-  window.location.href = "sign-up.html";
-}
-
-function logout(){
+function logout() {
   firebase.auth().signOut();
   window.location.href = "index.html";
 }
