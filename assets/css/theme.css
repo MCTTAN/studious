@@ -3255,7 +3255,7 @@ section {
 }
 
 .overview-item-red {
-    background-color: #d400a9;
+    background-color: #ff0000;
     /*
     background-image: -moz-linear-gradient(90deg, #45b649 0%, #dce35b 100%);
     background-image: -webkit-linear-gradient(90deg, #45b649 0%, #dce35b 100%);
@@ -4273,7 +4273,7 @@ section {
 }
 
 .dot-red {
-    background-color: #d400a9;
+    background-color: #ff0000;
     /*
     background-image: -moz-linear-gradient(90deg, #45b649 0%, #dce35b 100%);
     background-image: -webkit-linear-gradient(90deg, #45b649 0%, #dce35b 100%);
