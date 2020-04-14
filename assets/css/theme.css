@@ -64,7 +64,7 @@ input, textarea {
 }
 
 input, button {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
 
@@ -95,7 +95,7 @@ p {
 
 /* ----- Typography ----- */
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.625;
@@ -157,20 +157,17 @@ strong {
 }
 
 .title-1 {
-    text-transform: capitalize;
     font-weight: 400;
     font-size: 30px;
 }
 
 .title-2 {
-    text-transform: capitalize;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 36px;
     line-height: 1;
 }
 
 .title-3 {
-    text-transform: capitalize;
     font-weight: 400;
     font-size: 24px;
     color: #333;
@@ -188,7 +185,6 @@ strong {
 }
 
 .title-5 {
-    text-transform: capitalize;
     font-size: 22px;
     font-weight: 500;
     color: #393939;
@@ -204,7 +200,6 @@ strong {
     font-size: 24px;
     font-weight: 500;
     color: #333;
-    text-transform: capitalize;
     margin-bottom: 10px;
 }
 
@@ -1504,7 +1499,7 @@ section {
 }
 
 .account-item > .content > a:after {
-    font-family: "Material-Design-Iconic-Font";
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     content: '\f2f9';
     display: inline-block;
@@ -1842,7 +1837,7 @@ section {
 
 .header-mobile .navbar-mobile .navbar-mobile__list li.has-dropdown > a:after {
     content: '\f105';
-    font-family: FontAwesome, cursive;
+    font-family: 'Montserrat', sans-serif;
     float: right;
     font-size: 16px;
     line-height: 22px;
@@ -5618,7 +5613,7 @@ section {
     position: relative;
     display: block;
     height: inherit;
-    font-family: FontAwesome;
+    font-family: 'Montserrat', sans-serif;
     font-size: 10px;
     font-weight: 600;
     text-transform: uppercase;
