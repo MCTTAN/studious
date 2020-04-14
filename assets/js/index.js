@@ -10,7 +10,7 @@ firebase.auth().onAuthStateChanged(function(user) {
     if(user != null){
 
       var email_id = user.email;
-      window.location.href = "mcttan.github.io/studious/home.html";
+      window.location.href = "home.html";
       // document.getElementById("user_para").innerHTML = "Welcome User : " + email_id;
 
     }
