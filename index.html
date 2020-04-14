@@ -1,4 +1,5 @@
 <html>
+  
 <head>
   <title>Login</title>
   
@@ -7,19 +8,26 @@
   
   <link rel="stylesheet" href="assets/css/theme.css" />
 </head>
+
 <body>
 
   <div id="login_div" class="main-div">
-    <img src="">
+    
+    <!-- Logo -->
+    <center>
+    <img src="https://github.com/MCTTAN/studious/blob/master/media/dos-white-bg-2.png?raw=true" style="width: 200px; height: 200px;">
+    </center>
+    
     <br>
-    <input type="email" placeholder="Email..." id="email_field" />
-    <input type="password" placeholder="Password..." id="password_field" />
+    <input type="email" placeholder="Email" id="email_field" />
+    <input type="password" placeholder="Password" id="password_field" />
 
-    <button onclick="login()">Login to Account</button>
+    <button onclick="login()">Login</button>
+    
   </div>
 
   <div id="user_div" class="loggedin-div">
-    <p id="user_para">Welcome. You're currently logged in.</p>
+    <p id="user_para">.</p>
     
     <button onclick="logout()">Logout</button>
   </div>
