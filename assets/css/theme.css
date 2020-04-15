@@ -31,6 +31,13 @@ Notes:	decreasing heading by 0.4em with every subsequent heading level
 /*                   GENERIC                           */
 /*-----------------------------------------------------*/
 
+/* Blue Gradient */
+.blue-gradient {
+    background-image: -moz-linear-gradient(90deg, #396afc 0%, #2948ff 100%);
+    background-image: -webkit-linear-gradient(90deg, #396afc 0%, #2948ff 100%);
+    background-image: -ms-linear-gradient(90deg, #396afc 0%, #2948ff 100%);
+}
+    
 input[type="text"] { font-family: 'Montserrat', sans-serif; }
 
 * {
@@ -892,9 +899,6 @@ section {
     -moz-border-radius: 3px;
     border-radius: 3px;
     /*background: #4272d7;*/
-    background-image: -moz-linear-gradient(90deg, #396afc 0%, #2948ff 100%);
-    background-image: -webkit-linear-gradient(90deg, #396afc 0%, #2948ff 100%);
-    background-image: -ms-linear-gradient(90deg, #396afc 0%, #2948ff 100%);
     margin-left: -3px;
 }
 
