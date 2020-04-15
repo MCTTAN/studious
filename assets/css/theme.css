@@ -21,15 +21,6 @@
 
 Notes:	decreasing heading by 0.4em with every subsequent heading level
 -------------------------------------------------------------------*/
-/*-----------------------------------------------------*/
-/*                   SETTINGS                          */
-/*-----------------------------------------------------*/
-/*-----------------------------------------------------*/
-/*                   TOOLS                             */
-/*-----------------------------------------------------*/
-/*-----------------------------------------------------*/
-/*                   GENERIC                           */
-/*-----------------------------------------------------*/
 
 /* Blue Gradient */
 .blue-gradient {
@@ -138,6 +129,51 @@ blockquote {
 
 strong {
     font-weight: 700;
+}
+
+/* ----- SLIDESHOW ----- */
+.slider-container {
+  width: 800px;
+  height: 600px;
+  padding: 125px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  text-align: left;
+}
+
+.slider-image-container {
+  position: relative;
+  transition: left 2s;
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+}
+
+.slider-image {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+}
+
+.slider-buttons {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  background-color: black;
+}
+
+#slider-image-1:target ~ .image-container {
+  left: 0px;
+}
+
+#slider-image-2:target ~ .image-container {
+  left: -800px;
+}
+
+#slider-image-3:target ~ .image-container {
+  left: -1600px;
 }
 
 /*-----------------------------------------------------*/
