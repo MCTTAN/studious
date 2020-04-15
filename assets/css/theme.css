@@ -1768,11 +1768,11 @@ section {
 }
 
 .navbar-sidebar .navbar__list li a:hover {
-    color: #4272d7;
+    color: #00b9f7;
 }
 
 .navbar-sidebar .navbar__list li.active > a {
-    color: #4272d7;
+    color: #00b9f7;
 }
 
 .has-sub {
@@ -2391,7 +2391,7 @@ section {
 }
 
 .navbar-sidebar2 .navbar__list li.active > a {
-    color: #4272d7;
+    color: #00b9f7;
 }
 
 .navbar-sidebar2 .navbar__sub-list {
@@ -2865,7 +2865,7 @@ section {
 }
 
 .header__navbar ul li.active > a {
-    color: #4272d7;
+    color: #00b9f7;
 }
 
 .header__navbar ul li.active > a .bot-line {
@@ -3178,7 +3178,7 @@ section {
 }
 
 .navbar-sidebar3 .navbar__list li.active > a {
-    background: #4272d7;
+    background: #00b9f7;
     color: #fff;
 }
 
