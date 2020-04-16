@@ -2205,7 +2205,7 @@ section {
     width: 15px;
     line-height: 15px;
     text-align: center;
-    background: #ff4b5a;
+    background: rgb(255, 0, 0);
     color: #fff;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
@@ -3109,7 +3109,7 @@ section {
     right: 34px;
     width: 30px;
     height: 30px;
-    background: #ff4b5a;
+    background: rgb(255, 0, 0);
     text-align: center;
     line-height: 30px;
     font-size: 14px;
@@ -3279,7 +3279,7 @@ section {
     content: '';
     height: 8px;
     width: 8px;
-    background: #ff4b5a;
+    background: rgb(255, 0, 0);
     position: absolute;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
@@ -4999,7 +4999,7 @@ section {
 }
 
 .decre i {
-    color: #ff4b5a;
+    color: rgb(255, 0, 0);
 }
 
 .dot {
@@ -6821,7 +6821,7 @@ section {
 }
 
 .switch-danger > .switch-input:checked ~ .switch-label {
-    background: #ff4b5a !important;
+    background: rgb(255, 0, 0) !important;
     border-color: #ff182b;
 }
 
@@ -6831,29 +6831,29 @@ section {
 
 .switch-danger-outline > .switch-input:checked ~ .switch-label {
     background: #fff !important;
-    border-color: #ff4b5a;
+    border-color: rgb(255, 0, 0);
 }
 
 .switch-danger-outline > .switch-input:checked ~ .switch-label::after {
-    color: #ff4b5a;
+    color: rgb(255, 0, 0);
 }
 
 .switch-danger-outline > .switch-input:checked ~ .switch-handle {
-    border-color: #ff4b5a;
+    border-color: rgb(255, 0, 0);
 }
 
 .switch-danger-outline-alt > .switch-input:checked ~ .switch-label {
     background: #fff !important;
-    border-color: #ff4b5a;
+    border-color: rgb(255, 0, 0);
 }
 
 .switch-danger-outline-alt > .switch-input:checked ~ .switch-label::after {
-    color: #ff4b5a;
+    color: rgb(255, 0, 0);
 }
 
 .switch-danger-outline-alt > .switch-input:checked ~ .switch-handle {
-    background: #ff4b5a !important;
-    border-color: #ff4b5a;
+    background: rgb(255, 0, 0) !important;
+    border-color: rgb(255, 0, 0);
 }
 
 .switch-light > .switch-input:checked ~ .switch-label {
