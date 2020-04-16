@@ -2182,7 +2182,7 @@ section {
 
 .noti__item i {
     font-size: 30px;
-    color: #a9b3c9;
+    color: #7c7c7c;
     -webkit-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -2658,7 +2658,7 @@ section {
 }
 
 .sub-header-mobile-2 .header__tool .header-button-item {
-    color: #a9b3c9;
+    color: #7c7c7c;
 }
 
 .sub-header-mobile-2 .header__tool .account-wrap .account-item--style2 .content a {
@@ -3801,7 +3801,7 @@ section {
 }
 
 .header4-wrap .header__tool .header-button-item {
-    color: #a9b3c9;
+    color: #7c7c7c;
 }
 
 @media (max-width: 991px) {
