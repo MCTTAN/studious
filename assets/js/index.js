@@ -20,6 +20,10 @@ firebase.auth().onAuthStateChanged(function(user) {
   }
 });
 
+function create-group() {
+  
+}
+
 function index() {
   window.location.href = "index.html"
 }
