@@ -22,6 +22,13 @@
 Notes:	decreasing heading by 0.4em with every subsequent heading level
 -------------------------------------------------------------------*/
 
+/* HIDE SCROLLBAR */
+
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
 /* BLUE GRADIENT */
 
 .blue-gradient {
