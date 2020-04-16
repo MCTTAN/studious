@@ -1090,9 +1090,10 @@ section {
 }
 
 .main-div button, .loggedin-div button {
-    background: #5d8ffc;
+    background-image: -moz-linear-gradient(90deg, #396afc 0%, #2948ff 100%);
+    background-image: -webkit-linear-gradient(90deg, #396afc 0%, #2948ff 100%);
+    background-image: -ms-linear-gradient(90deg, #396afc 0%, #2948ff 100%);
     color: #fff;
-    border: 1px solid #5dffc;
     border-radius: 5px;
     padding: 15px;
     display: block;
@@ -1104,8 +1105,8 @@ section {
 
 .main-div button:hover, .loggedin-div button:hover {
   background: #fff;
-  color: #5d8ffc;
-  border: 1px solid #5d8ffc;
+  color: #00B9F7;
+  border: 1px solid #00B9F7;
   cursor: pointer;
 }
 
@@ -1165,9 +1166,10 @@ section {
 }
 
 .logged-in button {
-    background: #5d8ffc;
+    background-image: -moz-linear-gradient(90deg, #396afc 0%, #2948ff 100%);
+    background-image: -webkit-linear-gradient(90deg, #396afc 0%, #2948ff 100%);
+    background-image: -ms-linear-gradient(90deg, #396afc 0%, #2948ff 100%);
     color: #fff;
-    border: 1px solid #5d8ffc;
     border-radius: 5px;
     padding: 15px;
     display: block;
@@ -1179,8 +1181,8 @@ section {
 
 .logged-in button:hover {
     background: #fff;
-    color: #5d8ffc;
-    border: 1px solid #5d8ffc;
+    color: #00B97F;
+    border: 1px solid #00B97F;
     cursor: pointer;
 }
 
