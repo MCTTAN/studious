@@ -95,6 +95,15 @@ p {
 }
 
 /* ----- Typography ----- */
+
+::-webkit-input-placeholder { font-family: 'Montserrat', sans-serif; }
+
+:-moz-placeholder { font-family: 'Montserrat', sans-serif; }
+
+::-moz-placeholder { font-family: 'Montserrat', sans-serif; }
+
+:-ms-input-placeholder { font-family: 'Montserrat', sans-serif; }
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
