@@ -20,6 +20,10 @@ firebase.auth().onAuthStateChanged(function(user) {
   }
 });
 
+function index() {
+  window.location.href = "index.html"
+}
+
 function login() {
 
   var userEmail = document.getElementById("email_field").value;
