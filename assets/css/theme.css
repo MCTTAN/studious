@@ -1868,6 +1868,10 @@ textarea {
     -moz-transition: all 0.5s ease;
     transition: all 0.5s ease;
     width: 100%;
+    -webkit-box-sizing: border-box !important;
+  	-moz-box-sizing: border-box !important;
+  	-ms-box-sizing: border-box !important;
+  	box-sizing: border-box !important;
 }
 
 .au-input-transparent {
@@ -1885,6 +1889,10 @@ textarea {
     -moz-transition: all 0.5s ease;
     transition: all 0.5s ease;
     width: 100%;
+    -webkit-box-sizing: border-box !important;
+  	-moz-box-sizing: border-box !important;
+  	-ms-box-sizing: border-box !important;
+  	box-sizing: border-box !important;
 }
 
 .au-input-transparent::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -1981,27 +1989,47 @@ textarea {
 
 .au-input--xl {
     min-width: 935px;
+    -webkit-box-sizing: border-box !important;
+  	-moz-box-sizing: border-box !important;
+  	-ms-box-sizing: border-box !important;
+  	box-sizing: border-box !important;
 }
 
 .au-input--xl-transparent {
     min-width: 935px;
     background-color: rgba(0, 0, 0, 0.3);
+    -webkit-box-sizing: border-box !important;
+  	-moz-box-sizing: border-box !important;
+  	-ms-box-sizing: border-box !important;
+  	box-sizing: border-box !important;
 }
 
 @media (max-width: 1600px) {
     .au-input--xl {
-        min-width: 350px;
+        min-width: 250px;
+    }
+    
+    .au-input--xl-transparent {
+        min-width: 250px;
     }
 }
 
 @media (max-width: 991px) {
     .au-input--xl {
-        min-width: 350px;
+        min-width: 250px;
+    }
+    
+    .au-input--xl-transparent {
+        min-width: 250px;
     }
 }
 
 @media (max-width: 767px) {
     .au-input--xl {
+        min-width: 150px;
+    }
+    
+    .au-input--xl-transparent {
         min-width: 150px;
     }
 }
