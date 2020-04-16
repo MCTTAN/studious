@@ -39,6 +39,7 @@
 
     <!-- Main CSS-->
     <link href="assets/css/theme.css" rel="stylesheet" media="all">
+    <link href="assets/css/palette.css" rel="stylesheet" media="all">
 
 </head>
 
@@ -376,102 +377,314 @@
                                 
                                 <br>
                                 
-                                <div class="au-card-header" style="background-image: url('https://www.nationalgeographic.com/content/dam/archaeologyandhistory/rights-exempt/history-magazine/2016/01-02/macarthur/macarthur-leyte.adapt.1900.1.jpg');">
-                                        <div class="bg-overlay bg-overlay-charcoal"></div>
-                                        <h3 class="title-2" style="color: white; position: relative;">"I'll be back. Hasta la vista, baby."
-                                        <br>
-                                        <br>
-                                        <p class="title-1">-Gen. Douglas MacArthur</p>
+                                <div class="au-card-header" style="background-image: url('https://github.com/MCTTAN/studious/blob/master/media/library-of-alexandria.jpg?raw=true');">
+                                        <div class="bg-overlay dark-purple-overlay"></div>
+                                        
+                                        <h3 class="title-2" style="color: white; position: relative; font-size: 100px;">Alexandria
+                                        
+                                          <br>
+                                          
+                                          <p class="title-1" style="line-height: 1.5;">
+                                            <br>
+                                            Keep track of your reading habits,
+                                            <br>
+                                            and a catalogue of reading materials
+                                            <br>
+                                            you've read and are looking for.
+                                          </p>
+                                          
                                         </h3>
                                 </div>
                                 
                                 <br>
                                 
                               </div>
+                              
+                              <div class="col-md-12">
+                                
+                                  
+                                    
+                                <p>Reading Goal Progress Bar</p>
+                                <div id="progress-bars">
+                                  <div class="animated-progress-bar-blue-gradient">
+                                    <span style="width: 60%" data-label="Loading"></span>
+                                  </div>
+                                </div>          
+                                  
+                                </div>
+                                
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
                                 
                               <div class="col-md-12">
-                                <div class="row m-t-25">
+                                
+                                
+                                
+                                <div class="row">
                                   
-                                  <div class="col-sm-6 col-lg-3">
-                                    <div class="overview-item overview-item-blue-gradient">
-                                        <div class="overview__inner">
-                                            <div class="overview-box clearfix">
-                                                <div class="icon">
-                                                    <i class=""></i>
+                                  <div class="col-lg-6">
+                                <div class="au-card au-card--no-shadow au-card--no-pad m-b-40">
+                                    <div class="au-card-title" style="background-image:url('');">
+                                        <div class="bg-overlay charcoal"></div>
+                                        <h3>Read</h3>
+                                        <button class="au-btn-plus" style="background-color: #2948ff;">
+                                            <i class="zmdi zmdi-plus"></i>
+                                        </button>
+                                    </div>
+                                    <div class="au-inbox-wrap js-inbox-wrap">
+                                        <div class="au-message js-list-load">
+                                            <div class="au-message__noti">
+                                                <p>You've read <span>295</span> books total.
+                                                </p>
+                                            </div>
+                                            <div class="au-message-list">
+                                                <div class="au-message__item unread">
+                                                    <div class="au-message__item-inner">
+                                                        <div class="au-message__item-text">
+                                                            <div class="avatar-wrap">
+                                                                <div class="avatar">
+                                                                    <img src="images/icon/avatar-02.jpg" alt="The Gene: An Intimate History">
+                                                                </div>
+                                                            </div>
+                                                            <div class="text">
+                                                                <h5 class="name">The Gene: An Intimate History</h5>
+                                                                <p>by Siddhartha Mukherjee</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="au-message__item-time">
+                                                            <span>Apr 14, 2020</span>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                                <div class="text">
-                                                    <h2>Canvas</h2>
-                                                    <span>Take notes with your stylus or finger. Write and draw. Share your notes. </span>
+                                                <div class="au-message__item unread">
+                                                    <div class="au-message__item-inner">
+                                                        <div class="au-message__item-text">
+                                                            <div class="avatar-wrap online">
+                                                                <div class="avatar">
+                                                                    <img src="images/icon/avatar-03.jpg" alt="The Drops of God (Vol. 4)">
+                                                                </div>
+                                                            </div>
+                                                            <div class="text">
+                                                                <h5 class="name">The Drops of God (Vol. 4)</h5>
+                                                                <p>by Tadashi Agi</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="au-message__item-time">
+                                                            <span>Apr 12, 2020</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="au-message__item">
+                                                    <div class="au-message__item-inner">
+                                                        <div class="au-message__item-text">
+                                                            <div class="avatar-wrap online">
+                                                                <div class="avatar">
+                                                                    <img src="images/icon/avatar-04.jpg" alt="Naoki Urasawa's Monster">
+                                                                </div>
+                                                            </div>
+                                                            <div class="text">
+                                                                <h5 class="name">Naoki Urasawa's Monster</h5>
+                                                                <p>by Naoki Urasawa</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="au-message__item-time">
+                                                            <span>Apr 10, 2020</span>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="overview-chart">
-                                              <canvas id=""></canvas>
+                                            <div class="au-message__footer">
+                                                <button class="au-btn au-btn-load js-load-btn" style="background-color: black;">Load More</button>
                                             </div>
                                         </div>
+                                        
+                                      </div>
                                     </div>
                                   </div>
                                   
-                                  <div class="col-sm-6 col-lg-3">
-                                    <div class="overview-item overview-item-blue-gradient">
-                                        <div class="overview__inner">
-                                            <div class="overview-box clearfix">
-                                                <div class="icon">
-                                                    <i class=""></i>
+                                  
+                                  
+                                  <div class="col-lg-6">
+                                <div class="au-card au-card--no-shadow au-card--no-pad m-b-40">
+                                    <div class="au-card-title" style="background-image:url('');">
+                                        <div class="bg-overlay charcoal"></div>
+                                        <h3>Currently Reading</h3>
+                                        <button class="au-btn-plus" style="background-color: #2948ff;">
+                                            <i class="zmdi zmdi-plus"></i>
+                                        </button>
+                                    </div>
+                                    <div class="au-inbox-wrap js-inbox-wrap">
+                                        <div class="au-message js-list-load">
+                                            <div class="au-message__noti">
+                                                <p>You're reading <span>11</span> books now.
+                                                </p>
+                                            </div>
+                                            <div class="au-message-list">
+                                                <div class="au-message__item unread">
+                                                    <div class="au-message__item-inner">
+                                                        <div class="au-message__item-text">
+                                                            <div class="avatar-wrap">
+                                                                <div class="avatar">
+                                                                    <img src="images/icon/avatar-02.jpg" alt="The Gene: An Intimate History">
+                                                                </div>
+                                                            </div>
+                                                            <div class="text">
+                                                                <h5 class="name">The Gene: An Intimate History</h5>
+                                                                <p>by Siddhartha Mukherjee</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="au-message__item-time">
+                                                            <span>Apr 14, 2020</span>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                                <div class="text">
-                                                    <h2>Spread</h2>
-                                                    <span>Save webpages when online, and read them when offline. Share them.</span>
+                                                <div class="au-message__item unread">
+                                                    <div class="au-message__item-inner">
+                                                        <div class="au-message__item-text">
+                                                            <div class="avatar-wrap online">
+                                                                <div class="avatar">
+                                                                    <img src="images/icon/avatar-03.jpg" alt="The Drops of God (Vol. 4)">
+                                                                </div>
+                                                            </div>
+                                                            <div class="text">
+                                                                <h5 class="name">The Drops of God (Vol. 4)</h5>
+                                                                <p>by Tadashi Agi</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="au-message__item-time">
+                                                            <span>Apr 12, 2020</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="au-message__item">
+                                                    <div class="au-message__item-inner">
+                                                        <div class="au-message__item-text">
+                                                            <div class="avatar-wrap online">
+                                                                <div class="avatar">
+                                                                    <img src="images/icon/avatar-04.jpg" alt="Naoki Urasawa's Monster">
+                                                                </div>
+                                                            </div>
+                                                            <div class="text">
+                                                                <h5 class="name">Naoki Urasawa's Monster</h5>
+                                                                <p>by Naoki Urasawa</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="au-message__item-time">
+                                                            <span>Apr 10, 2020</span>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="overview-chart">
-                                              <canvas id=""></canvas>
+                                            <div class="au-message__footer">
+                                                <button class="au-btn au-btn-load js-load-btn" style="background-color: black;">Load More</button>
                                             </div>
                                         </div>
+                                        
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                  
+                                  
+                                <div class="col-lg-6">
+                                <div class="au-card au-card--no-shadow au-card--no-pad m-b-40">
+                                    <div class="au-card-title" style="background-image:url('');">
+                                        <div class="bg-overlay charcoal"></div>
+                                        <h3>Want To Read</h3>
+                                        <button class="au-btn-plus" style="background-color: #2948ff;">
+                                            <i class="zmdi zmdi-plus"></i>
+                                        </button>
+                                    </div>
+                                    <div class="au-inbox-wrap js-inbox-wrap">
+                                        <div class="au-message js-list-load">
+                                            <div class="au-message__noti">
+                                                <p>You have <span>1,469</span> books to read.
+                                                </p>
+                                            </div>
+                                            <div class="au-message-list">
+                                                <div class="au-message__item unread">
+                                                    <div class="au-message__item-inner">
+                                                        <div class="au-message__item-text">
+                                                            <div class="avatar-wrap">
+                                                                <div class="avatar">
+                                                                    <img src="images/icon/avatar-02.jpg" alt="The Gene: An Intimate History">
+                                                                </div>
+                                                            </div>
+                                                            <div class="text">
+                                                                <h5 class="name">The Gene: An Intimate History</h5>
+                                                                <p>by Siddhartha Mukherjee</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="au-message__item-time">
+                                                            <span>Apr 14, 2020</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="au-message__item unread">
+                                                    <div class="au-message__item-inner">
+                                                        <div class="au-message__item-text">
+                                                            <div class="avatar-wrap online">
+                                                                <div class="avatar">
+                                                                    <img src="images/icon/avatar-03.jpg" alt="The Drops of God (Vol. 4)">
+                                                                </div>
+                                                            </div>
+                                                            <div class="text">
+                                                                <h5 class="name">The Drops of God (Vol. 4)</h5>
+                                                                <p>by Tadashi Agi</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="au-message__item-time">
+                                                            <span>Apr 12, 2020</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="au-message__item">
+                                                    <div class="au-message__item-inner">
+                                                        <div class="au-message__item-text">
+                                                            <div class="avatar-wrap online">
+                                                                <div class="avatar">
+                                                                    <img src="images/icon/avatar-04.jpg" alt="Naoki Urasawa's Monster">
+                                                                </div>
+                                                            </div>
+                                                            <div class="text">
+                                                                <h5 class="name">Naoki Urasawa's Monster</h5>
+                                                                <p>by Naoki Urasawa</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="au-message__item-time">
+                                                            <span>Apr 10, 2020</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="au-message__footer">
+                                                <button class="au-btn au-btn-load js-load-btn" style="background-color: black;">Load More</button>
+                                            </div>
+                                        </div>
+                                        
+                                      </div>
                                     </div>
                                   </div>
                                   
-                                  <div class="col-sm-6 col-lg-3">
-                                    <div class="overview-item overview-item-blue-gradient">
-                                        <div class="overview__inner">
-                                            <div class="overview-box clearfix">
-                                                <div class="icon">
-                                                    <i class=""></i>
-                                                </div>
-                                                <div class="text">
-                                                    <h2>Alexandria</h2>
-                                                    <span>Keep track of your reading habits, and a catalogue of reading materials you've read and are looking for.</span>
-                                                </div>
-                                            </div>
-                                            <div class="overview-chart">
-                                              <canvas id=""></canvas>
-                                            </div>
-                                        </div>
-                                    </div>
-                                  </div>
                                   
-                                  <div class="col-sm-6 col-lg-3">
-                                    <div class="overview-item overview-item-blue-gradient">
-                                        <div class="overview__inner">
-                                            <div class="overview-box clearfix">
-                                                <div class="icon">
-                                                    <i class=""></i>
-                                                </div>
-                                                <div class="text">
-                                                    <h2>Lorem Ipsum</h2>
-                                                    <span>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</span>
-                                                </div>
-                                            </div>
-                                            <div class="overview-chart">
-                                              <canvas id=""></canvas>
-                                            </div>
-                                        </div>
-                                    </div>
-                                  </div>
+                                  
+                                </div>
+                                
+                                
+                                  
+                                  
+                                  
+                                  
+                                  
                                   
                         </div>
                             
                     </div>
                 </div>
+                        
             </div>
             <!-- END MAIN CONTENT-->
             <!-- END PAGE CONTAINER-->
