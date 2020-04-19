@@ -254,6 +254,25 @@
                     <span class="file-upload__label"></span>
                   </div>
                   
+                  <table>
+                    <tr><td>Text to Save:</td></tr>
+                    <tr>
+                        <td colspan="3">
+                            <textarea id="inputTextToSave" cols="30" rows="7"  class="form-control" placeholder="enter your text here!"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Filename to Save As:</td>
+                        <td><input id="inputFileNameToSaveAs" placeholder="example.txt" class="form-control"></td>
+                        <td><button class="btn btn-primary" onclick="saveTextAsFile()">Save Text to File</button></td>
+                    </tr>
+                    <tr>
+                        <td>Select a File to Load:</td>
+                        <td><input  class="form-control" type="file" id="fileToLoad"></td>
+                        <td><button class="btn btn-primary" onclick="loadFileAsText()">Load Selected File</button><td>
+                    </tr>
+                </table>
+                  
                   <embed src="" width="" height="">
                                         
 								  <h2 class="title-1" style="text-align: center;">How California Teacher Erin Gruwell Inspired a Generation of Writers</h2>
@@ -324,7 +343,12 @@ The documentary release coincides with the book’s 20th anniversary. Gruwell is
     </script>
 
     <!-- Main JS-->
+    <script src="assets/js/bootstrap-datetimepicker.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script src="assets/js/load-file-as-text.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/moment.js"></script>
+    <script src="assets/js/save-text-as-file.js"></script>
     <script src="assets/js/upload.js"></script>
     
     <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
