@@ -6,7 +6,7 @@
 <head>
 
   <!-- Title Page -->
-  <title>Agenda</title>
+  <title>Profile Personal Sample</title>
 
   <!-- Browser Tab Icon -->
   <link href="https://github.com/MCTTAN/studious/blob/master/media/studious-brain-transparent.png?raw=true" rel="icon">
@@ -43,7 +43,10 @@
   <link href="assets/css/switches.css" rel="stylesheet" media="all">
   <link href="assets/css/theme.css" rel="stylesheet" media="all">
   <link href="assets/css/titles.css" rel="stylesheet" media="all">
-
+  <link href="assets/css/upload.css" rel="stylesheet" media="all">
+  
+  <!-- Main PHP -->
+  
   <!-- Required Meta Tags -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="author" content="MCTTAN">
@@ -435,19 +438,15 @@
                   </div>
                 </div>
               </div>
+              
               <div class="col-lg-8">
-                <div class="au-card au-card--no-shadow au-card--no-pad m-b-40">
-                  <div class="au-card-title">
-                    <div class="bg-overlay charcoal"></div>
-                    <h3>
-                      Upload Resume
-                      <br>
-                      or
-                      <br>
-                      Create a Resume
-                    </h3>
+                <div class="file-upload__button">
+								    <input class="file-upload__input" type="file" name="myFile[]" id="myFile" multiple>
+                    <button type="button" class="btn btn-primary blue-gradient">
+                      <i class="fa fa-upload"></i>&nbsp; Upload File(s)
+                    </button>
+                    <span class="file-upload__label"></span>
                   </div>
-                </div>
               </div>
 
           </div>
@@ -561,9 +560,13 @@
     <script src="assets/vendor/select2/select2.min.js"></script>
 
     <!-- Main JS-->
+    <script src="assets/js/bootstrap-datetimepicker.js"></script>
     <script src="assets/js/index.js"></script>
+    <script src="assets/js/load-file-as-text.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/moment.js"></script>
+    <script src="assets/js/save-text-as-file.js"></script>
+    <script src="assets/js/upload.js"></script>
 
     <!-- FIREBASE -->
     <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
