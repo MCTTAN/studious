@@ -43,6 +43,7 @@
   <link href="assets/css/switches.css" rel="stylesheet" media="all">
   <link href="assets/css/theme.css" rel="stylesheet" media="all">
   <link href="assets/css/titles.css" rel="stylesheet" media="all">
+  <link href="assets/css/upload.css" rel="stylesheet" media="all">
 
   <!-- Required Meta Tags -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -245,9 +246,13 @@
 								
 								<div style="padding-left: 300px;">
 								  
-                  <button type="button" class="btn btn-primary blue-gradient">
-                    <i class="fa fa-upload"></i>&nbsp; Upload File
-                  </button>
+								  <div class="file-upload__button">
+								    <input class="file-upload__input" type="file" name="myFile[]" id="myFile" multiple>
+                    <button type="button" class="btn btn-primary blue-gradient">
+                      <i class="fa fa-upload"></i>&nbsp; Upload File
+                    </button>
+                    <span class="file-upload__label"></span>
+                  </div>
                                         
 								  <h2 class="title-1" style="text-align: center;">How California Teacher Erin Gruwell Inspired a Generation of Writers</h2>
 								  
@@ -318,6 +323,7 @@ The documentary release coincides with the book’s 20th anniversary. Gruwell is
 
     <!-- Main JS-->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/upload.js"></script>
     
     <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
     <script>

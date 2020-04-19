@@ -1,0 +1,10 @@
+
+
+.file-upload {
+  display: inline-flex;
+  align-items: center;
+}
+
+.file-upload__input {
+  display: none;
+}
