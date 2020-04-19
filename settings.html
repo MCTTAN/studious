@@ -43,6 +43,7 @@
   <link href="assets/css/switches.css" rel="stylesheet" media="all">
   <link href="assets/css/theme.css" rel="stylesheet" media="all">
   <link href="assets/css/titles.css" rel="stylesheet" media="all">
+  <link href="assets/css/upload.css" rel="stylesheet" media="all">
 
   <!-- Required Meta Tags -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -112,7 +113,7 @@
             <li>
               <a href="grades.html">Grades</a>
             </li>
-            <li>
+            <li class="active has-sub">
               <a href="settings.html">Settings</a>
             </li>
             <li>
@@ -172,7 +173,7 @@
             <li>
               <a href="grades.html">Grades</a>
             </li>
-            <li>
+            <li class="active has-sub">
               <a href="settings.html">Settings</a>
             </li>
             <li>
@@ -378,15 +379,14 @@
 
                 <!-- FRONT PAGE IMAGE CARD -->
                 <div class="au-card-header" style="align-items: flex-end;
-                                                   background-image: url('https://cdn.britannica.com/57/149857-050-13586128/Douglas-MacArthur-others-landings-Leyte-Philippines-October-20-1944.jpg');
-                                                   justify-content: flex-end;">
-                  <div class="bg-overlay charcoal-overlay"></div>
+                                                   background-image: url('https://github.com/MCTTAN/studious/blob/master/media/studious-gradient.png?raw=true');">
+                  <div class=""></div>
                   <h3 class="title-2" style="color: white;
                                              position: relative;">
-                    "I'll be back. Hasta la vista, baby."
+                    Resources
                     <br>
                     <br>
-                    <p class="title-1">-Gen. Douglas MacArthur</p>
+                    <p style="font-size: 18px; line-height: 1.5;"></p>
                   </h3>
                 </div>
 
@@ -395,132 +395,6 @@
 
             </div>
             <!-- END - ROW 1 -->
-
-            <!-- START - ROW 2 -->
-            <div class="row">
-
-              <!-- START - ROW 2 COLUMN 1 -->
-              <div class="col-md-12">
-
-                <!-- START - ROW 2 COLUMN 1 ROW 1 -->
-                <div class="row m-t-25">
-
-                  <!-- START - ROW 2 COLUMN 1 ROW 1 COLUMN 1 -->
-                  <div class="col-sm-6 col-lg-3" onclick="window.location.href='canvas.html';" style="cursor: pointer;">
-                    <div class="overview-item blue-gradient">
-                      <div class="overview__inner">
-
-                        <div class="overview-box clearfix">
-
-                          <div class="icon">
-                            <i class=""></i>
-                          </div>
-
-                          <div class="text">
-                            <h2>Canvas</h2>
-                            <span>Lorem ipsum dolor sit amet</span>
-                          </div>
-
-                        </div>
-
-                        <div class="overview-chart">
-                          <canvas id=""></canvas>
-                        </div>
-
-                      </div>
-                    </div>
-                  </div>
-                  <!-- END - ROW 2 COLUMN 1 ROW 1 COLUMN 1 -->
-
-                  <!-- START - ROW 2 COLUMN 1 ROW 1 COLUMN 2 -->
-                  <div class="col-sm-6 col-lg-3" onclick="window.location.href='spread.html';" style="cursor: pointer;">
-                    <div class="overview-item blue-gradient">
-                      <div class="overview__inner">
-
-                        <div class="overview-box clearfix">
-
-                          <div class="icon">
-                            <i class=""></i>
-                          </div>
-
-                          <div class="text">
-                            <h2>Spread</h2>
-                            <span>Lorem ipsum dolor sit amet</span>
-                          </div>
-
-                        </div>
-
-                        <div class="overview-chart">
-                          <canvas id=""></canvas>
-                        </div>
-
-                      </div>
-                    </div>
-                  </div>
-                  <!-- END - ROW 2 COLUMN 1 ROW 1 COLUMN 2 -->
-
-                  <!-- START - ROW 2 COLUMN 1 ROW 1 COLUMN 3 -->
-                  <div class="col-sm-6 col-lg-3" onclick="window.location.href='alexandria.html';" style="cursor: pointer;">
-                    <div class="overview-item blue-gradient">
-                      <div class="overview__inner">
-
-                        <div class="overview-box clearfix">
-
-                          <div class="icon">
-                            <i class=""></i>
-                          </div>
-
-                          <div class="text">
-                            <h2>Alexandria</h2>
-                            <span>Lorem ipsum dolor sit amet</span>
-                          </div>
-
-                        </div>
-
-                        <div class="overview-chart">
-                          <canvas id=""></canvas>
-                        </div>
-
-                      </div>
-                    </div>
-                  </div>
-                  <!-- END - ROW 2 COLUMN 1 ROW 1 COLUMN 3 -->
-
-                  <!-- START - ROW 2 COLUMN 1 ROW 1 COLUMN 4 -->
-                  <div class="col-sm-6 col-lg-3">
-                    <div class="overview-item blue-gradient">
-                      <div class="overview__inner">
-
-                        <div class="overview-box clearfix">
-
-                          <div class="icon">
-                            <i class=""></i>
-                          </div>
-
-                          <div class="text">
-                            <h2>Lorem Ipsum</h2>
-                            <span>Lorem ipsum dolor sit amet</span>
-                          </div>
-
-                        </div>
-
-                        <div class="overview-chart">
-                          <canvas id=""></canvas>
-                        </div>
-
-                      </div>
-                    </div>
-                  </div>
-                  <!-- END - ROW 2 COLUMN 1 ROW 1 COLUMN 4 -->
-
-                </div>
-                <!-- END - ROW 2 COLUMN 1 ROW 1 -->
-
-              </div>
-              <!-- END - ROW 2 COLUMN 1 -->
-
-            </div>
-            <!-- END - ROW 2 -->
 
           </div>
         </div>
@@ -552,6 +426,7 @@
     <script src="assets/js/index.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/moment.js"></script>
+    <script src="assets/js/upload.js"></script>
 
     <!-- FIREBASE -->
     <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
