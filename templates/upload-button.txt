@@ -1,0 +1,21 @@
+
+
+### Multiple Files ###
+
+<div class="file-upload__button">
+  <input class="file-upload__input" type="file" name="myFile[]" id="myFile" multiple>
+  <button type="button" class="btn btn-primary blue-gradient">
+    <i class="fa fa-upload"></i>&nbsp; Upload File(s)
+  </button>
+  <span class="file-upload__label"></span>
+</div>
+
+### Single File ###
+
+<div class="file-upload__button">
+  <input class="file-upload__input" type="file" name="myFile[]" id="myFile">
+  <button type="button" class="btn btn-primary blue-gradient">
+    <i class="fa fa-upload"></i>&nbsp; Upload File
+  </button>
+  <span class="file-upload__label"></span>
+</div>
