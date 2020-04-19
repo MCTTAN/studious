@@ -22,6 +22,44 @@
 Notes:	decreasing heading by 0.4em with every subsequent heading level
 -------------------------------------------------------------------*/
 
+/* display this row with flex and use wrap (= respect columns' widths) */
+
+.row-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* vertical spacing between columns */
+
+[class*="col-"] { margin-bottom: 30px; }
+
+.equal-height { height: 100%; }
+
+.colour-1 {
+  background: #483C46;
+  color: #fff;
+}
+
+.colour-2 {
+  background: #3C6E71;
+}
+
+.colour-3 {
+  background: #70AE6E;
+}
+
+.colour-4 {
+  background: #82204A;
+}
+
+.colour-5 {
+  background: #558C8C;
+}
+
+.colour-6 {
+  background: #917C78;
+}
+
 /* HIDE SCROLLBAR */
 
 ::-webkit-scrollbar {
