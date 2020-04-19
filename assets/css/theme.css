@@ -3246,6 +3246,19 @@ textarea {
     margin-bottom: 40px;
 }
 
+.overview-item-2 {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 30px;
+    padding-bottom: 0;
+    -webkit-box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.1);
+    box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+
 @media (min-width: 992px) and (max-width: 1519px) {
     .overview-item {
         padding-left: 15px;
