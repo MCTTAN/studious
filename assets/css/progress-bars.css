@@ -814,7 +814,7 @@
   vertical-align: middle;
   height: 20px;
   border-radius: 10px 10px 10px 10px;
-  background-color: white;
+  background-color: #2948ff;
   background-size: 100%;
   animation: multicolored 6s   ease;
 }
@@ -993,7 +993,7 @@
   border-radius: 10px 10px 10px 10px;
   background-color: rgb(119, 235, 0);
   background-size: 100%;
-  animation: proficient 6s   ease;
+  animation: proficient 6s ease;
 }
 
 .animated-progress-bar-proficient span::before {
