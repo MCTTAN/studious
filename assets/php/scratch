@@ -27,3 +27,74 @@
 
 
 $_SERVER['DOCUMENT_ROOT']
+
+
+
+
+
+
+
+
+/* THIS SAVES TO CURRENT DIRECTORY */
+
+      <form method="post" enctype="multipart/form-data">
+        <h1>How To Store Files Into Remote Hosting Folder</h1>
+        <h2>PHP</h2>
+        <br/>
+        <input type="file" name="images"/>
+        <br/>
+        <button type="submit" name="Upload-Img">Click To Upload</button>
+        <br/>
+      </form>
+      
+      
+      
+
+
+<?php
+  //if(isset($_POST['Upload-Img'])) {
+  if(isset($_FILES['file'])) {
+    $img = $_FILES['images']['name'];
+    $img_loc = $_FILES['images']['tmp_name'];
+    $img_folder= 'C:\Users\marie\Documents\studious\upload-tmp-dir';
+    $target_path = "upload-tmp-dir/";
+    //$img_folder.$img -> saves with the wrong file name
+    //$img -> saves to current folder
+    $file_name = $_FILES['file']['name'];
+    $file_tmp = $_FILES['file']['tmp_name'];
+    $upload_folder = 'upload-test-files/';
+      
+      
+    //if(move_uploaded_file("upload-test-files", $img)) {
+    if(move_uploaded_file($file_tmp, $upload_folder.$file_name)) {
+      ?>
+      <script>
+        alert('File successfully saved')
+      </script>
+      <?php
+    }
+    else {
+      ?>
+      <script>
+        alert('Something went wrong')
+      </script>
+      <?php
+    }
+  }
+?>
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <center>
+      <form method="post" enctype="multipart/form-data">
+        <br>
+        <br>
+        <input type="file" name="file">
+        <br>
+        <br>
+        <input type="submit" value="upload">
+      </form>
+    </center>
+  </body>
+</html>
