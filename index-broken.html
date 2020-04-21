@@ -1,0 +1,100 @@
+<html>
+  
+<head>
+  
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Browser Tab Icon -->
+  <link href="https://github.com/MCTTAN/studious/blob/master/media/studious-brain-transparent.png?raw=true" rel="icon">
+  
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="au theme template">
+    <meta name="author" content="MCTTAN">
+    <meta name="keywords" content="au theme template">
+
+    <!-- Title Page-->
+    <title>Login</title>
+
+    <!-- Fontfaces CSS-->
+    <link href="assets/css/font-face.css" rel="stylesheet" media="all">
+    <link href="assets/vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link href="assets/vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
+    <link href="assets/vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+
+    <!-- Bootstrap CSS-->
+    <link href="assets/vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
+
+    <!-- Vendor CSS-->
+    <link href="assets/vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
+    <link href="assets/vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" media="all">
+    <link href="assets/vendor/wow/animate.css" rel="stylesheet" media="all">
+    <link href="assets/vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
+    <link href="assets/vendor/slick/slick.css" rel="stylesheet" media="all">
+    <link href="assets/vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="assets/vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="assets/css/bootstrap-datetimepicker.min.css" media="all">
+    <link href="assets/css/checkboxes.css" rel="stylesheet" media="all">
+    <link href="assets/css/font-face.css" rel="stylesheet" media="all">
+    <link href="assets/css/palette.css" rel="stylesheet" media="all">
+    <link href="assets/css/progress-bars.css" rel="stylesheet" media="all">
+    <link href="assets/css/slideshows.css" rel="stylesheet" media="all">
+    <link href="assets/css/theme.css" rel="stylesheet" media="all">
+    <link href="assets/css/titles.css" rel="stylesheet" media="all">
+
+</head>
+
+<body>
+
+  <div id="login_div" class="main-div">
+    
+    <!-- Logo -->
+    <center>
+    <img src="https://github.com/MCTTAN/studious/blob/master/media/dos-white-bg-2.png?raw=true" style="width: 200px; height: 200px;">
+    </center>
+    
+    <br>
+    <input type="email" placeholder="Email" id="email_field" />
+    <input type="password" placeholder="Password" id="password_field" />
+
+    <button onclick="login()">Login</button>
+    
+    <br>
+    
+    <button onclick="window.location.href = 'sign-up.html';">Sign Up</button>
+    
+    <br>
+    
+    <button onclick="window.location.href = 'forgot-password.html';">Forgot Password</button>
+  </div>
+
+  <div id="user_div" class="loggedin-div">
+    <p id="user_para">.</p>
+    
+    <button onclick="logout()">Logout</button>
+  </div>
+
+
+
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyBxpChnKp_r1fy7B9931Cnxqe0T-OftvgY",
+        authDomain: "virtulis-da62b.firebaseapp.com",
+        databaseURL: "https://virtulis-da62b.firebaseio.com",
+        projectId: "virtulis-da62b",
+        storageBucket: "virtulis-da62b.appspot.com",
+        messagingSenderId: "727096552336",
+        appId: "1:727096552336:web:3434a5e281580db3"
+    };
+    firebase.initializeApp(config);
+  </script>
+  <script src="assets/js/index.js"></script>
+
+</body>
+</html>
