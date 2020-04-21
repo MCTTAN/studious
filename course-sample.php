@@ -245,7 +245,7 @@
                         
 								
 								<div style="padding-left: 300px;">
-								  
+								
 								  <div class="file-upload__button">
 								    <input class="file-upload__input" type="file" name="myFile[]" id="myFile" multiple>
                     <button type="button" class="btn btn-primary blue-gradient">
@@ -255,11 +255,26 @@
                   </div>
                   
                   <form method="post" enctype="multipart/form-data">
-                    <br>
-                    <br>
+                    
                     <input type="file" name="file">
-                    <br>
-                    <br>
+                    
+                    <input type="submit" value="upload">
+                  </form>
+                  
+                  
+                  <div class="file-upload">
+                    <label for="upload" class="file-upload__label">Css only file upload button</label>
+                    <input id="upload" class="file-upload__input" type="file" name="file-upload">
+                  </div>
+                   
+                  
+                  <form method="post" enctype="multipart/form-data">
+                    <div class="file-upload__button">
+                      <input class="file-upload__input" type="file" name="file" multiple>
+                      <button type="button" class="btn btn-primary blue-gradient">
+                        <i class="fa fa-upload"></i>&nbsp; Select File(s)
+                      </button>
+                    </div>
                     <input type="submit" value="upload">
                   </form>
                   
@@ -267,7 +282,12 @@
                     if(isset($_FILES['file'])) {
                       $file_name = $_FILES['file']['name'];
                       $file_tmp = $_FILES['file']['tmp_name'];
-                      $upload_folder = 'upload-test-files/';
+                      $upload_folder = 'uploads/';
+                      
+                      echo $file_name;
+                      echo $file_tmp;
+                      echo $upload_folder;
+                      echo $upload_folder.$file_name;
                         
                       if(move_uploaded_file($file_tmp, $upload_folder.$file_name)) {
                         ?>
