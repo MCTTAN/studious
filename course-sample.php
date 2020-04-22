@@ -36,6 +36,7 @@
   <link href="assets/css/bootstrap-datetimepicker.min.css" media="all">
   <link href="assets/css/checkboxes.css" rel="stylesheet" media="all">
   <link href="assets/css/font-face.css" rel="stylesheet" media="all">
+  <link href="assets/css/paddings.css" rel="stylesheet" media="all">
   <link href="assets/css/palette.css" rel="stylesheet" media="all">
   <link href="assets/css/progress-bars.css" rel="stylesheet" media="all">
   <link href="assets/css/search.css" rel="stylesheet" media="all">
@@ -94,9 +95,6 @@
             </li>
             <li>
               <a href="agenda.html">Agenda</a>
-            </li>
-            <li>
-              <a href="assignments.html">Assignments</a>
             </li>
             <li>
               <a href="performance.html">Performance</a>
@@ -209,10 +207,6 @@
               										<ul class="nav nav-tabs">
               											<li class="nav-item">
               												<a class="nav-link active" href="#">Bulletin</a>
-              											</li>
-              											
-              											<li class="nav-item">
-              												<a class="nav-link" href="#">Assignments</a>
               											</li>
               											
               											<li class="nav-item">
