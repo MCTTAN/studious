@@ -1,12 +1,10 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
 
   <!-- Title Page -->
-  <title>Course Sample</title>
+  <title>Home</title>
 
   <!-- Browser Tab Icon -->
   <link href="https://github.com/MCTTAN/studious/blob/master/media/studious-brain-transparent.png?raw=true" rel="icon">
@@ -81,14 +79,11 @@
       <nav class="navbar-mobile">
         <div class="container-fluid">
           <ul class="navbar-mobile__list list-unstyled">
-            <li>
+            <li class="active has-sub">
               <a href="home.html">Home</a>
             </li>
-            <li class="active has-sub">
-              <a href="courses.html">Courses</a>
-            </li>
             <li>
-              <a href="resources.html">Resources</a>
+              <a href="courses.html">Courses</a>
             </li>
             <li>
               <a href="groups.html">Groups</a>
@@ -110,6 +105,9 @@
             </li>
             <li>
               <a href="grades.html">Grades</a>
+            </li>
+            <li>
+              <a href="resources.html">Resources</a>
             </li>
             <li>
               <a href="settings.html">Settings</a>
@@ -138,23 +136,17 @@
       <div class="menu-sidebar__content js-scrollbar1">
         <nav class="navbar-sidebar">
           <ul class="list-unstyled navbar__list">
-            <li>
+            <li class="active has-sub">
               <a href="home.html">Home</a>
             </li>
-            <li class="active has-sub">
-              <a href="courses.html">Courses</a>
-            </li>
             <li>
-              <a href="resources.html">Resources</a>
+              <a href="courses.html">Courses</a>
             </li>
             <li>
               <a href="groups.html">Groups</a>
             </li>
             <li>
               <a href="agenda.html">Agenda</a>
-            </li>
-            <li>
-              <a href="assignments.html">Assignments</a>
             </li>
             <li>
               <a href="performance.html">Performance</a>
@@ -170,6 +162,9 @@
             </li>
             <li>
               <a href="grades.html">Grades</a>
+            </li>
+            <li>
+              <a href="resources.html">Resources</a>
             </li>
             <li>
               <a href="settings.html">Settings</a>
