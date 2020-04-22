@@ -63,7 +63,7 @@
           <div class="header-mobile-inner">
 
             <!-- LOGO -->
-            <a class="logo" href="home.html">
+            <a class="logo" href="index.html">
               <img src="https://github.com/MCTTAN/studious/blob/master/media/studious-horizontal-transparent.png?raw=true" style="max-width: 75%; max-height: 75%;" alt="Studious Logo" />
             </a>
 
@@ -82,7 +82,7 @@
         <div class="container-fluid">
           <ul class="navbar-mobile__list list-unstyled">
             <li class="active has-sub">
-              <a href="home.html">Home</a>
+              <a href="index.html">Home</a>
             </li>
             <li>
               <a href="courses.html">Courses</a>
@@ -129,7 +129,7 @@
 
       <!-- LOGO -->
       <div class="logo" style="padding: 40px;">
-        <a href="home.html">
+        <a href="index.html">
           <img src="https://github.com/MCTTAN/studious/blob/master/media/studious-horizontal-transparent-2.png?raw=true" style="max-width: 90%; max-height: 90%;" alt="Studious Logo" />
         </a>
       </div>
@@ -139,7 +139,7 @@
         <nav class="navbar-sidebar">
           <ul class="list-unstyled navbar__list">
             <li class="active has-sub">
-              <a href="home.html">Home</a>
+              <a href="index.html">Home</a>
             </li>
             <li>
               <a href="courses.html">Courses</a>
